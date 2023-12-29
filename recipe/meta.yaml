@@ -1,5 +1,5 @@
 {% set name = "jekyll-github-metadata" %}
-{% set version = "2.13.0" %}
+{% set version = "2.16.1" %}
 
 package:
   name: rb-{{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://rubygems.org/downloads/{{ name }}-{{ version }}.gem
-  sha256: 81574c589d4ffbabb32d2961fee444211ee2ff1fd7d35eeec477348f493e9564
+  sha256: 4cf29988bdaf24774a7bc07fae71e54424ddfaa2895f742d8fa3036d0db65b4c
 
 build:
   noarch: generic
